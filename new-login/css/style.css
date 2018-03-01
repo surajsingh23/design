@@ -1,0 +1,115 @@
+main{
+	font-family: lato;
+	display: flex;
+	background: whitesmoke;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+a:visited, a:link, a:active{
+	color: black;
+}
+input:focus{
+	outline: none;
+}
+button:focus{
+	outline: none;
+}
+.box{
+	border-radius: 3px;
+	width: 500px;
+	height: auto;
+	background: #fff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+	text-align: center;
+}
+.header-text{
+	width: 500px;
+	height: auto;
+	background: #17a2d4;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 33px 0;
+}
+.heading{
+	color: #f4f4f4;
+	font-weight: 800;
+	text-align: center;
+	font-size: 30px;
+}
+.inner-content{
+	padding: 25px 25px 0 25px;
+}
+.form{
+	width: 100%;
+	padding-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.form-element{
+	width: 410px;
+	border-radius: 3px;
+	border: 1px solid #e8e8e8;
+	background: #f6f6f6;
+	padding: 20px 19px;
+	font-size: 16px;
+}
+.form-button{
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 19.5px 20px;
+}
+.login-button{
+	background: #17a2d4;
+}
+.fb-button{
+	background: #3b5998;
+	width: 210px;
+}
+.google-button{
+	background: #d34836;
+	width: 210px;
+}
+.form-button-full-width{
+	width: 450px;
+}
+.btn-text{
+	font-family: lato;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+.icon{
+	border-left: 1px solid #fff;
+	padding-left: 15px;
+}
+.left{
+	float: left;
+	text-align: left;
+}
+.right{
+	float: right;
+	color: white;
+}
+.footer-item{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px 25px;
+}
+.footer-text{
+	font-family: lato;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	letter-spacing: 1px;
+}
