@@ -1,27 +1,51 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="login-screen">
-            <div class="logo-text"> 
-                <div class="logtext">        
-                <label>SPORT EXCHANGE</label> 
-                </div>       
-            </div>
-            <div class="content">
-                <input class="input" type="text" placeholder="Email"></input>
-                <input class="input" type="text" placeholder="Password"></input>
-                <button class="login-button">Log in<img class="img" src="arrow.png" width="25px;" height="25px;"></img></button>
-                <button class="fb-login-button">Facebook</button>
-                <button class="google-login-button">Google+</button>
-                
-            </div>
-            <div class="forgotpass">
-            <label style="margin-right:210px;">Forgot Password?</label>
-            <label>Sign Up Now</label>
-            </div>
-            
-        </div>
-    </body>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<main>
+	<div class="box">
+		<div class="header-text">
+			<span class="heading">SPORTS EXCHANGE<span>
+		</div>
+		<div class="main-content">
+			<div class="form">
+				<input type="text" class="form-element" name="" placeholder="Email">
+			</div>
+			<div class="form">
+				<input type="password" class="form-element" name="" placeholder="Password">
+			</div>
+			<div class="form">
+				<button class="form-button form-button-full-width login-button">
+					<span class="btn-text left">Log in</span>
+					<span class="fa fa-arrow-right icon btn-text right"></span>
+				</button>
+			</div>
+			<div class="form">
+				<button class="form-button fb-button">
+					<span class="btn-text">Facebook</span>
+				</button>
+				<button class="form-button google-button">
+					<span class="btn-text">Google+</span>
+				</button>
+			</div>
+		</div>
+		<div class="footer-item">
+			<a href="" class="">
+					<span class="footer-text">
+						Forgot Password?
+					</span>
+				</a>
+				<a href="" class="">
+					<span class="footer-text">
+						Signup Now
+					</span>
+				</a>
+		</div>
+	</div>
+</main>
+</body>
 </html>
